@@ -12,7 +12,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Eventique",
-  description: "Eventique is a platform for event management.",
+  description: "Eventique is a platform for event management",
 };
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <ClerkProvider>
-      <html lang="en">
+      <html lang="en" suppressHydrationWarning>
         <body className={poppins.variable}>{children}</body>
       </html>
     </ClerkProvider>
