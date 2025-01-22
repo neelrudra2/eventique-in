@@ -60,7 +60,7 @@ const Card = async ({ event, hasOrderLink, hidePrice }: CardProps) => {
         </p>
 
         <Link href={`/events/${event._id}`}>
-          <p className="p-medium-16 md:p-medium-20 line-clamp-2 flex-1 text-black">
+          <p className="p-medium-16 md:p-medium-20 line-clamp-2 flex-1 text-primary-500">
             {event.title}
           </p>
         </Link>
